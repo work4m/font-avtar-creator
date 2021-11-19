@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "text-to-image": "^4.1.1",
     "tscpaths": "^0.0.9"
   }
 }
