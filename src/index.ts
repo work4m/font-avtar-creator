@@ -1,5 +1,7 @@
 import express, { Application, Request, Response } from "express";
 
+import api from "@api";
+
 const app: Application = express();
 const port = 3000;
 
@@ -7,12 +9,26 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use('/api', api);
+
 app.get("/", async (req: Request, res: Response): Promise<Response> => {
-        return res.status(200).send({
-            message: "Hello World!",
-        });
-    }
+    return res.status(200).send({
+        message: "Hello World!",
+    });
+}
 );
+
+app.post('/', async (req: Request, res: Response): Promise<Response> => {
+    return res.status(200).send({
+
+    });
+}
+);
+
+app.post('/update', (req: Request, res: Response): void => {
+  const { name, description } = req.body;
+  res.send(`Name ${name}, desc ${description}`);
+});
 
 try {
     app.listen(port, (): void => {
