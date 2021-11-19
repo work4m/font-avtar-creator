@@ -1,4 +1,5 @@
 import { Request, Response, Router, NextFunction } from "express";
+import 'canvas';
 import { generate } from "text-to-image";
 
 const router = Router();
