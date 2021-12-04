@@ -18,6 +18,9 @@
       "@helper/*": [
         "helper/*"
       ],
+      "@utils/*": [
+        "utils/*"
+      ],
     },
     "noImplicitAny": true,
     "esModuleInterop": true,
