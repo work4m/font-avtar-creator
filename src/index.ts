@@ -12,9 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 app.get("/", async (req: Request, res: Response): Promise<Response> => {
-    return res.status(200).send({
-        message: "Hello World!",
-    });
+    return res.status(200).send("Cannot GET /");
 }
 );
 
