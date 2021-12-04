@@ -14,7 +14,10 @@
     "paths": {
       "@api": [
         "api"
-      ]
+      ],
+      "@helper/*": [
+        "helper/*"
+      ],
     },
     "noImplicitAny": true,
     "esModuleInterop": true,
