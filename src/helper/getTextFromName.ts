@@ -15,7 +15,15 @@ const getTextFromName = (textOptions: TextGenerator) => {
     if (nameArray.length === 2) {
         console.log(`${nameArray[0][0]}${nameArray[1][0]}`);
 
-        imgText = `${nameArray[0][0]}${nameArray[1][0]}`;
+        const firstChars = nameArray[0];
+        let lastChars = nameArray[1];
+
+        console.log("length :: ", (charNum - 1));
+        console.log("lastChars :: ", lastChars.length);
+
+        lastChars = lastChars.slice(0, (charNum - 1));
+
+        imgText = `${firstChars[0]}${lastChars}`;
     }
 
     if (lower) {
