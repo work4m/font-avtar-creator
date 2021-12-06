@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+
   "scripts": {
-    "start": "nodemon",
+    "dev": "nodemon",
+    "start": "node build/index.js",
     "build": "tsc && tsc-alias",
     "prod-start": "node build/index.js",
     "vercel-dev": "vercel dev",
@@ -27,5 +29,8 @@
     "express": "^4.17.1",
     "text-to-image": "^4.1.1",
     "tscpaths": "^0.0.9"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
