@@ -91,7 +91,7 @@ No data is being stored on our serveres. Monitoring & logging is entirely disabl
 
 * * *
 
-Made by [Krunal Chauhan](https://twitter.com/lasserafn)
+Made by [Krunal Chauhan](https://twitter.com)
 
 [Code on Github](https://github.com/work4m/font-avtar-creator)
 
