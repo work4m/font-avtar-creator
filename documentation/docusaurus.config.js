@@ -11,7 +11,7 @@ const metaDescription = `Free API to generate avatars with initials - User Initi
 const config = {
   title: 'Avtar Image Generator',
   tagline: 'Generate avatars with initials from names',
-  url: 'https://font-avtar-creator-lu5p9g5mb-work4m.vercel.app',
+  url: 'https://font-avtar-creator.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -116,13 +116,13 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       metadatas: [
-        { name: 'og:url', content: 'https://font-avtar-creator-lu5p9g5mb-work4m.vercel.app' },
+        { name: 'og:url', content: 'https://font-avtar-creator.vercel.app' },
         { name: 'og:title', content: metaTitle },
+        { name: 'google-site-verification', content: 'VJKGG-OqwBvatqdpDJE7xwVDBde-TfYHbM7cZPmMwGs' },
         { name: 'twitter:title', content: metaTitle },
         { name: 'description', content: metaDescription },
         { name: 'og:description', content: metaDescription },
         { name: 'twitter:description', content: metaDescription },
-        { name: 'google-site-verification', content: 'VJKGG-OqwBvatqdpDJE7xwVDBde-TfYHbM7cZPmMwGs' },
       ]
     }),
 };
